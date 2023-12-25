@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contatos {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.titulo {
+    color: #333;
+}
+
+.descricao {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #009688;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00796b;
+}
+
+.informacoes-contato {
+    margin-top: 30px;
+}
+
+.informacoes-contato h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.informacoes-contato p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.redes-sociais {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais li {
+    margin-right: 10px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.redes-sociais a:hover {
+    color: #3283cf;
+}

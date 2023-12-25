@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: -100px;
+    transition: top 0.5s;
+    z-index: 1000;
+}
+
+.navbar a {
+    font-weight: 200;
+    color: white;
+    padding: 30px 10px;
+    text-decoration: none;
+    font-size: 30PX;
+
+}
+
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+
+}
+
+.img-topo-site img {
+    width: 100%;
+    border-radius: 25%;
+    overflow: hidden;
+    z-index: -1;
+    border: 5px solid rgb(50, 131, 207);
+
+
+
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site {
+    padding: 40px 4%;
+    padding-top: 10px;
+
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 40px;
+
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: #3283cf;
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 40px 0;
+
+    font-size: 25PX;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3283cf;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+/*Animações no topo do site*/
+.topo-do-site.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade-in 4s ease-in-out forwards, slide-up 4s ease-in-out forwards;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3283cf;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/* CABEÇALHO */
+.btn-contato {
+    display: none;
+}
+
+.vazio {
+    padding: 80px;
+}
+
+
+/*SOCIAL LINKS*/
+.ul-social {
+    text-align: center;
+    padding-left: 0;
+    padding-top: 125PX;
+
+
+}
+
+.li-social-links {
+    display: inline-block;
+    list-style: none;
+
+}
+
+.social {
+    font-size: 2em;
+    color: #ffffff;
+    padding: 30px;
+    transition: color 0.3s ease;
+
+}
+
+.social:hover {
+    color: #3283cf;
+}
+
+/*ARROW LINK*/
+#down-arrow {
+    /*position: absolute;
+    width: 100%;*/
+    margin-top: auto;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#down-arrow a {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+#down-arrow a:hover {
+    color: #3283cf;
+}
+
+/* ESTILO DO SOBRE */
+section.sobre {
+    padding: 80px 4%;
+    background-color: #ffffff;
+    padding-top: 50px;
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre {
+    color: #000000;
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: #3283cf;
+    display: block;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.img-sobre img {
+    width: 100%;
+    width: 390px;
+    height: 350px;
+    border-radius: 75px;
+    border: 5px solid rgb(50, 131, 207);
+    object-fit: cover;
+
+}
+
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #3283cf;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+
+/*Projetos*/
+section.portfolio {
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+
+
+}
+
+section.portfolio .flex {
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+
+.img-port {
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port:hover {
+    background-position: 100% 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b8;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+
+
+/*certificados 1*/
+
+
+section.certificado {
+    background: #000000;
+    padding: 200px 4%;
+    padding-top: 50px;
+}
+
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery-wrapper {
+    overflow-x: auto;
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    opacity: 1;
+}
+
+.arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+
+}
+
+.item {
+    width: 350px;
+    height: 250px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+}
+
+.current-item {
+    opacity: 1;
+    border-radius: 15%;
+}
+
+
+.gallery-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.cyan {
+    background: cyan;
+}
+
+.deeppink {
+    background: deeppink;
+}
+
+.turquoise {
+    background: turquoise;
+}
+
+.darkblue {
+    background: darkblue;
+}
+
+.purple {
+    background: purple;
+}
+
+
+.ESPACO {
+    height: 5VH;
+    background-color: #ffffff;
+
+}
+
+
+/*experiencias 1*/
+
+.experiencias-profissionais {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+}
+
+.experiencias-profissionais .titulo {
+    margin-bottom: 30px;
+}
+
+.experiencias-profissionais .gallery-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.experiencias-profissionais .gallery-wrapper {
+    overflow-x: hidden;
+}
+
+.experiencias-profissionais .gallery {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.experiencias-profissionais .item {
+    width: 100%;
+    flex-shrink: 0;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    text-align: center;
+}
+
+.experiencias-profissionais .item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.experiencias-profissionais .item p {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.experiencias-profissionais .experience-description {
+    margin-bottom: 15px;
+}
+
+.experiencias-profissionais .date {
+    font-style: italic;
+    color: #888;
+}
+
+/*
+.experiencias-profissionais .arrow-left-experiencias,
+.experiencias-profissionais .arrow-right-experiencias {
+    
+}*/
+
+.experiencias-profissionais .arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+
+
+/*
+certificados 2
+.portfolio-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+*/
+
+
+
+/* Estilo para a classe "titulo" na seção "sobre" */
+.sobre .titulo {
+    color: #000000; 
+    font-size: 32px; 
+    text-align: center;
+    
+}
+
+/* Estilo para a classe "titulo" na seção "portfolio" */
+.portfolio .titulo {
+    color: #ffffff; 
+    font-size: 32px; 
+    text-align: center;
+
+}
+
+/* Estilo para a classe "titulo" na seção "experiencia" */
+.experiencia .titulo {
+    color: #000000; 
+    font-size: 32px; 
+    text-align: center;
+    
+}
+
+/* Estilo para a classe "titulo" na seção "certificado" */
+.certificado .titulo {
+    color: #ffffff;
+    font-size: 32px; 
+    text-align: center;
+   
+}
+
+
+
+/* Estilos do footer */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilizando o link no footer */
+footer a {
+    color: #66ccff; 
+    text-decoration: none; 
+}
+
+
+footer a:hover {
+    color: #ffffff; 
+}
+
+
+
+.btn-curriculo {
+    background-color: #ffffff; 
+    color: #000000;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-curriculo:hover {
+    background-color: #3283cf;
+}

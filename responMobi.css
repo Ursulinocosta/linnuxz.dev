@@ -1,0 +1,161 @@
+/*Mobile*/
+
+@media screen and (max-width: 1020px) {
+
+    /*.ul-social {
+        text-align: center;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+    .li-social-links {
+        display: inline-block;
+        list-style: none;
+    }
+
+    .social {
+        font-size: 2em;
+        color: white;
+        padding: 15px;
+        transition: color 0.3s ease;
+    }
+
+    .social:hover {
+        color: #66ccff; 
+    }*/
+
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+        height: 80vh;
+
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    /* CABEÇALHO */
+    .btn-contato {
+        display: none;
+    }
+
+    /* TOPO DO SITE */
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+
+    }
+
+    .topo-do-site .img-topo-site img {
+        width: 100%;
+
+    }
+
+    /* SOBRE */
+    section.sobre {
+        padding: 80px 8%;
+    }
+
+    .sobre .txt-sobre h2 {
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+
+
+    }
+
+    .btn-social {
+        text-align: center;
+
+    }
+
+
+    .img-sobre img {
+        width: 100%;
+    }
+
+    .sobre .txt-sobre P {
+        padding-top: 200px;
+
+    }
+
+
+    /* PORTFÓLIO */
+    section.portfolio {
+        padding: 80px 8%;
+    }
+
+    .img-port {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    section.portfolio .flex {
+        gap: 60px;
+    }
+}
+
+
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+/*Animação para flutuar a foto section topo-do-site*/
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+
+/*Animação para girar a foto section topo-do-site*/
+/*
+@keyframes girar {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

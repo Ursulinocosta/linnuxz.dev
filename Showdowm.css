@@ -1,0 +1,83 @@
+section.experiencia {
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 150px;
+}
+
+.job-entry {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.job-entry img {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.job-details h4 {
+    margin-top: 0;
+    color: #3283cf;
+}
+
+.job-details p {
+    margin-bottom: 0;
+}
+
+.job-details a {
+    color: #3283cf;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.job-details code {
+    background-color: #f8f9fa;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 90%;
+}
+
+.hide-details {
+    display: none;
+
+}
+
+.show-details {
+    display: block;
+}
+
+.job-more-details {
+    margin-top: 10px;
+}
+
+.toggle-details {
+    background-color: #3283cf;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle-details:hover {
+    background-color: #3283cf;
+}
+
+.carroseelCertificados{
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+
+
+
+
+
