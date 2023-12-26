@@ -11,17 +11,17 @@ body {
 }
 
 .contatos {
-    background-color: #f5f5f5;
+    background-color: #000000;
     padding: 40px 0;
     text-align: center;
 }
 
 .titulo {
-    color: #333;
+    color: #ffffff;
 }
 
 .descricao {
-    color: #666;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 
@@ -63,12 +63,12 @@ button:hover {
 }
 
 .informacoes-contato h3 {
-    color: #333;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
 .informacoes-contato p {
-    color: #666;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
@@ -86,7 +86,7 @@ button:hover {
 
 .redes-sociais a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     font-weight: bold;
 }
 
