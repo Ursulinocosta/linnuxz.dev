@@ -554,10 +554,11 @@ certificados 2
 
 
 
+
 /* Estilos do footer */
 footer {
     background-color: #ffffff;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
     bottom: 0;
@@ -572,7 +573,7 @@ footer a {
 
 
 footer a:hover {
-    color: #ffffff; 
+    color: #000000; 
 }
 
 
