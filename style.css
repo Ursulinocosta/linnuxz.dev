@@ -520,7 +520,7 @@ certificados 2
 
 
 
-/* Estilo para a classe "titulo" na seção "sobre" */
+/* Estilo para a classe "titulo" */
 .sobre .titulo {
     color: #000000; 
     font-size: 32px; 
@@ -528,7 +528,7 @@ certificados 2
     
 }
 
-/* Estilo para a classe "titulo" na seção "portfolio" */
+
 .portfolio .titulo {
     color: #ffffff; 
     font-size: 32px; 
@@ -536,7 +536,7 @@ certificados 2
 
 }
 
-/* Estilo para a classe "titulo" na seção "experiencia" */
+
 .experiencia .titulo {
     color: #000000; 
     font-size: 32px; 
@@ -544,7 +544,7 @@ certificados 2
     
 }
 
-/* Estilo para a classe "titulo" na seção "certificado" */
+
 .certificado .titulo {
     color: #ffffff;
     font-size: 32px; 
@@ -575,7 +575,6 @@ footer a {
 footer a:hover {
     color: #000000; 
 }
-
 
 
 .btn-curriculo {
