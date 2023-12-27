@@ -233,6 +233,11 @@ section.sobre .flex {
   color: black;
   text-decoration: none;
   border-bottom: 1px solid rgb(50, 131, 207);
+  transition: all 400ms;
+}
+
+.sobre .styled-link:hover{
+  border-bottom: 2px solid rgb(50, 131, 207);
 }
 
 
