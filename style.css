@@ -580,11 +580,13 @@ footer {
 footer a {
     color: #66ccff; 
     text-decoration: none; 
+    ont-weight: bold;
 }
 
 
 footer a:hover {
     color: #000000; 
+    ont-weight: bold;
 }
 
 
