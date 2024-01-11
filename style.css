@@ -137,7 +137,7 @@ section.topo-do-site .flex {
 }
 
 .vazio {
-    padding: 80px;
+    padding: 40px;
 }
 
 
@@ -192,6 +192,7 @@ section.sobre {
     padding: 80px 4%;
     background-color: #ffffff;
     padding-top: 50px;
+    border-radius: 30px;
 }
 
 section.sobre .flex {
@@ -574,6 +575,7 @@ footer {
     padding: 10px;
     bottom: 0;
     width: 100%;
+    border-radius: 30px;
 }
 
 /* Estilizando o link no footer */
